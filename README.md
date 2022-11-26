@@ -1,5 +1,4 @@
-# challenge_2
-Portfolio page
+# Portfolio Site
 
 ## Description
 
