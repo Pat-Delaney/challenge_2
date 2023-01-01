@@ -20,7 +20,7 @@ function navigate(query){
     
 }
 }
-function emptyInfo(source){
+async function emptyInfo(source){
     console.log(source);
 if(source === "info"){
     gsap.to($("#about_me"), {
@@ -75,10 +75,12 @@ function initHome(){
 }
 
 $("#navbar a").click( function(event){
+    event.preventDefault();
     emptyInfo(event.target.dataset.type);
     navigate(event.target.dataset.section);
 });
 $(".home_button").click(function(event){
+    event.preventDefault();
     emptyInfo(event.target.dataset.type);
     home();
 })
