@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Patrick Delaney - Portfolio</title>
@@ -27,67 +24,87 @@
     </header>
     <main>
         <div id="main_container">
-        <section class="hidden" id="about_me">
+        <section>
+        <div id="about_me">
             <div id="about1"><img id="patrick_img" src="./assets/images/patrick.JPG" alt="Patrick Delaney in front of a grassy background"></div>
             <div id="about_content">
             <h2 id="about_title">About Me</h2>
             <p>My development experience began in high school, where I studied HTML, CSS and Javascript. After graduating from The Evergreen State College with a degree in media and visual arts, I started work in digital printing and manufacturing. I am now enrolled in the University of Washington coding bootcamp, where I am building on my coding experience and learning new skills in git.</p>
             <ul id="about_links">
-                <li><i class="fab fa-github"></i></li>
-                <li><i class="fab fa-linkedin"></i></li>
+                <li><a href="https://github.com/Pat-Delaney" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/patrick-delaney-2081a1152/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li></li>
             </ul>
             </div>
+        </div>
+        <ul id="cards">
+            <li class="card" id="card_1">
+                <div class="card__content">
+                    <div>
+                        <h2>Worldwide Headlines</h2>
+                        <p>Search for news stories, offering a selection of brief descriptions from across the internet. Developed using Jquery, Materialize CSS library and third party APIs Current and Gnews  </p>
+                        <p><a href="https://hong-f.github.io/worldwidenews/" target="_blank" class="btn btn--accent">Try it out</a></p>
+                    </div>
+                    <figure>
+                        <img src="https://lh3.googleusercontent.com/ZlMo5HVpMfu_33SdXZLjcBRGmDiwusJNu8JylvgXVVlXUi6xsyPnndDc1-j7irB5f2ZEZ-Qda46PhJ_g92pYF5y_n4YgR7qCdEsy2_834fw1_oYG1HLwdz_ZFqkdQQhjgbIO9y3-Hnz0f2h240cpI3Hke0I_1glgVfc0aa8LeXzKrBqvsC-uQBG30dTqj5-NfJbyZHF_qUrhQze-ikPiWCGdJYR9_1yyq0MysdAsWbmScAWE3ClZw2C5QbLrec7bhzCmUW8XuSxdafxClcXZxMbfPmFN_EDkQNdGb7l-L4qOsEV1IyLzJZPK8xA50kb8qt6x-wGnFU6YAlPAIdl321mbjpGUXRCoGnXEAidKJwh-1VuY-V90wqsXiotFn51Qsa0HgnltbmLjQRXePkHSywhqnbNQEubgRpNFwpS5nuo8qFq-7UoFQOLNZiyReJw1SBPAqQ-Euyw9LafzU0XYOFF-cJPxyGFqojwXSKT1Kb_OU_FA6euqHo7BifGGumTERJUQstqUpvrI3n-efVBSXCdhwXSCJXYbevBwjIKJiRyuzeWLOD_FgcLtcyKdkHUd0-HynaXcvUtn8RduL-giEoNFE_GrraKnOG_sSjUcJnViwqnLlHZbTSYmJwGTAaH4U72CFZhl9Oro85u0MOTzJwabaQpDDxaBOLM2ChyWahHtlhGE8RdKse6TL6xZ_cG7H4e_-mgjNZRKd5lTQ3pq_aiHG0Y82M8ocdOIN3yewg9uzX2ENkLMU1gAM8qcVM30y2nWs2ZD4qPC6x0jR9DeoOQbbZm4fCjReWLbaK3ov_4vslOFly24C0j2dh5raO3dDnezQdw-WFC24usQ0jJboWTePIspFGngWOU3cphXeMMSUs52g9jC2EdBQRItvmAy9kAzn9FQvp9w0K1RWkv7MwUyHNTLkngygwhXLmpNYZ0dV7Nj=w2151-h1209-no?authuser=0" alt="screenshot of deployed worldwide headlines site">
+                    </figure>
+                </div>
+            </li>
+            <li class="card" id="card_2">
+                <div class="card__content">
+                    <figure>
+                        <img src="https://lh3.googleusercontent.com/oGbStmx3h5yNyHMzTxxBbRzlKGqr6hymAFdhXTV8T47uc1qsZxgTYtqsdXlqN9_DmwvzAMhADhzgNDiN1fVQlLrUPJDA1EpuYTttA1hXyPQl06Vd8sGF2ndXKLKmyps8fbc0imnK3k4L8_oQZN9ZjxMZCQRfcM1Yj-v6Ywrpp6hTh4Ju8NlmWwlq-CEwmRux1LDKljz4TlMSG_20-esgom2Mu28Elh7Uo30YCn_5_VtLM6OE4FlTBS-VGKH9y6c6EgcSErXJwSUEM0b-95cHRD-WIPoIIVqpf1RPUnaYQATXBvvTv3zY9ww5DLqjcGzzn4PkA9wFDs-OJhhupWPzHpt2X-DXuOgn5Mo_jbpJh4x1ipkhNk0Vmy6v-jYA73VSrvmOmDRuarxm3x4rhlpN4bcZm7BHhOPvrUP_ML8H3V1-fJsUWhJ90DSqpCDudsDHupLP5uVZ594ziJQmZLGuXw466Bx9IbCE3BOFk2ltLa9wkm7BM0Cs0U9j3q0DcJ4zfhv2DMuCATcaV9dlChwfMzA9cKj0KdkxtEZL05Xls1mdjZs8f5wgpZGThdXCqDnirkArPLHyH7EdSOCaXTzQaoOWKXm72RvwCReA6iQHHY_rRqDJ2F2-01cgbVtOV0zh3uFInCp7Z87pZipCx9EjFRhHp9Mg2LpBpgH1V468GjACUGu3ci5truAAZpmQCb_gNo7-RRK9byET2n8UrFw_emQujdD43TqL1J4vP4h4WIPoyG5m_ei-Vj9Thz5TdZRT_hOUNHeOqVFsfcRhdEJQqk3ZE8IzSCKpqgUdL-tjHxkEKleQ70eR9xNtxhRkHOA9tr-ou-xq1bWnB2Z1Ydbq5Ua8zRh0thszCghVCSrS8da5PV5YmAdqnahj0JdmoC32hs7Dnx3TRAReVuSr6BtdkkcxFSYCeHXcKBCxI5C8E37I3-t_=w2930-h1648-no?authuser=0" alt="screenshot of deployed weather dashboard site">
+                    </figure>
+                    <div>
+                        <h2>Weather Dashboard</h2>
+                        <p>Search any city and find current weather, as well as a 5 day forecast. Created with Jquery, Bootstrap and Third Party API OpenWeather</p>
+                        <p><a href="https://pat-delaney.github.io/weather_dashboard/" target="_blank" class="btn btn--accent">Try it out</a></p>
+                    </div>
+                </div>
+            </li>
+            <li class="card" id="card_3">
+                <div class="card__content">
+                    <div>
+                        <h2>Manufacturing, Machine Operation</h2>
+                        <p>I have been working since 2021 as a printer and machine operator in the manufacturing industry, working with printing of apparel, gifts and product labels.</p>
+                    <br>
+                    <hr>
+                    <br>
+                        <h2>Media and Video production</h2>
+                        <p>Prior to my work in web design and development, I graduated from The Evergreen State College with a focus in Media and Visual art. In my studies, I became very familiar with Adobe CC, especially Photoshop, Premiere Pro, AfterEffects and Audition. Additionally, I have skills in 3d art, drawing and painting, and animation.</p>
+                        <p><a href="https://vimeo.com/user144301220" target="_blank" class="btn btn--accent">Check out my video work</a></p>
+                    </div>
+                    <figure>
+                    <div id="triple">
+                        <div class="image_triple">
+                        <img src="https://lh3.googleusercontent.com/BUdML_Eb00HTpAnWNNIFl25B9Sd3grQ0YrP07iEA44YypK26Y1yxsDBHS_9h6gKcK2G4zeMzKfr-iA1jcZSeGRI4DDfTjOKL6cHyOSiypFP2liQmOwsdcFPIwQ-zSVkEfTEk8Vnph9zYb3X-BTUPtqlolWacIy_NnI-TEE4lXDA7x7EWKczzDOXT0tFPbY-0eddFEDnPzNo5HC0saYuXKVTvGPNh3YBNiaqRt0d78uHG_PcaGL8shyMdq-7tp-Urhv-Ijm2fHGN5lYzPmcIAqvxnbquQjcG8incLtPkmmBkMUGZxzhzS1OTJ_Vwcx8I-risVbI0MTolxz79KOUecILIzBQK1_IOFkKGCRCP4A1Ysu5DrhAwSWZ0gwVx0JqByIzmruRgqNql1T7_nFDqVqT7flKGQcdOiR1S1ysnQRoPejgJTsouxhBxKK4EzwlHTlSAkoc6tidpv9oFFtNdFItI3BbNrkyHmI3bSjjgQ1YQ4Q5aT3TzpXBFmo-cGNiq3aOoVJEbhGRNwkR8FG3rFWzoVp68jwbQ6XXNWbjV9pGCeKbTHtzmObNUaqxTqh5qLDRYx-1glfYpY4SKJqnp5rUwgff1ciJp2Lux38u7CspXHzUncxUJnDMZ-OIbvQlgN8ngiOkkbb8XKP8iFQh2HvSqJ8bzeID-WpQUkOdwGChZrZ_w_wY-WJ320dpZ4kTIDhhPzZZOV4iVrozcl3j7qFdfRh8io9JKGN-Up5viagM8eIIs16QpqGTtBIMeNpGhdDcQFrWzBB41gS6fhfhQd4DXLzMC29o-O9RdLfl45IlhSExCgFi9izPBUZtniMlOezNE8EnPqEeGvaoxssBGAIS_SFwvr58RrKn8P8upkHMxwmo5BeLOJWffENPGllzL9s-8WckAkF6FwMog-TclXQhQNtQnUorm4KuwmKx6rNCEC0cxg=s2188-no?authuser=0" alt="portfolio work image 1">     
+                    </div>
+                    <div class="image_triple">
+                        <img src="https://lh3.googleusercontent.com/zqtQ4EvZP54tbQwqG9tyjRP-GFF61IkdlfvSVmFrFLSSKH2C7XpWtr_L1NrbKDW3AyxafZLpe_G-pZHKkS40m8Qs1mjJRCrWDFe4tEYfNX-ENCflt57jroW-51Z3RyGMPexy9LOU3wOM-Xf0f4ZQtYnTaWgaQY2yt0oD0pgrOBYgm_Ma5A3so083ENS3q-UiyvtURmJTAe7quMeG0yldAPg7icVga2-EHN_r8JyRIOLs7V90ddMDr0da1K0TmFSAA4yB18PfRKFIV653JZzR7ADPi0fCm3wkkmxvi3Oy-_0a_KrdZXP7uiZVOQSRrzqZF6tUk-09r9wiZaJt6uaXA7jcHxcvOH02DxqYIkITDOfkrTI22RmHdId75YUeAWaVac0rbIPLdtYLYxg2RlHc7cFpmaZ2ykOoAQK_K9GcZxFZcOoLDP2iVKFTU2b1xQZy_2aVYP0y19vLB8k5FZLvmxOeuvDxAxLTuuNkj5aPcVlq_aEZTOuBKRSXb4mETFBKmDwxOSi_cvfxokQc9gZashwMPkIqixeWUBUf35yFtdrmgbGfxL3gV-B_1EsU90bV5h1WwkUcmR98ee8YBSMPrNmkLlnkYB3ORe_HeX8pRP-1v0YIpgdRtEOgTR4zIeP0hehWuUMDNcraQt8P-M9nwMT7fyY_-pJyMVCitDGVjfkbCmPHOzEPIGkhNUrLyoT2jOPYhnOIBrX4pJnJE8J6YiHYNvVcWtsG03sDZtYBrz_SufVa0A19Gdsp3mGnEBvvFCR0vaubM8lr5ed5Pfjz6Xpd7r8o5j0VOQUboIyEoPzJIiiKUHmR_4CBpdlnjpJtcs7Eqqen4Etif8afoCl6UQG79Cx9SnnRs7KV8fE6d1sx5TSVzKTDhu4X46Dd-AJ7Sqo29yqeMdnKlVfPceZPdZXiAe1xCMU500z6ITJ7DlUgN9Am=w1642-h2188-no?authuser=0" alt="portfolio work image 2">
+                    </div>
+                    <div class="image_triple">
+                        <img src="https://lh3.googleusercontent.com/nGFYNMm6mUSotr03TFWxSl6dwY5yOA1U8O9cYnI8lWcoqDpuW0-gDebDnlVMZxn_l5NoRhyvcDiOsD5ekT6DzDbSQBKn2u2UBkG6aQrRHKqX3lFlU-jaGMZIj1ztckBHoyFHyEgkngnqgpoFzz5pude2xLxMWY3L_sPrQYiZq3n-PFa0Qg74-3ypJp8D6iMxI0afFcu-CtfR_7GeJD7V5xOVK_oKC8p4rYeQTU2-Vwry9BMIbrGTmouI9N48UtJzrsyAWQRonlCdVJrrnC6iijyHhcrptajVOkL5XlJ0biW3WgN1N5z3E2XD-LowkeI0SpoM_YpkNJubGgDPT7vBEvsHEx6q5UdRHbURxHZDUATDmwqk3LmZIb9ATBK4vwDNLuKA3axCnNczy0fT9mNfhF63G1_FFXsGyiXw0_cTfyEEdCkYssws3JpMlKQ0TCQgE_Fnn0la75mZ_2C6UBxFlFEvti-DnOkAqO2WBaj2vKymDpMieb8vC1Pfbh_sUGcMj0TWelZjIBo1rT49YB2qMkbn3vqoU9LONSuyeGMa-zK4LK8gEOVSzYlHe_UzqRg-z2EC5_6UfG_GuNh2Buw1YME-zQzxI4meyALzUHRI-I5OkL4A6tgybe9kMzchEZbN0_a4zCdL-Ijq08DlSaxdHJLqp_knHMgbvs9Wk0qniP-hpAqCZ-3G32KJX417o_o3LKeQgrUT8ldfe_V_eMPMpUj4EE6VPNj9_Tt-3B2i34OPA4tDtbW0cwpCi0QhuFSUMFi2itusa24AR5bJoRlELLCjtdT-NWj1vK60Kgj_7E8vLCW1dYNvRzTg04ZK-RfdbzqnLlunCET4cs9IpcA-GnaMNQ9U4hYXiOyvuXCXYIKLiSjKa0UVXU5BupbwXUdw1clFb7gBDs9aa3eXx75rcVLFxhF6xWTEMbZapVkXey6f-9my=s2188-no?authuser=0" alt="portfolio work image 3">
+                    </div>
+                    </div>
+                </figure>
+                </div>
+            </li>
+        </ul>
+
             <div id="about2">
-                
+                <h2>My Resume</h2>
+                <div id="resume">
+                <iframe  src="./assets/Files/Resume Patrick Delaney.pdf#toolbar=0" width="100%" height="500px"></iframe>
+            </div>
             </div>
             </section>
-        <section class="main_info d-none" id="my_work">
-            <h2>My Work</h2>
-            <div id="work_container">
-                <div id="work_carousel" class="carousel slide mx-auto" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#work_carousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#work_carousel" data-slide-to="1"></li>
-                      <li data-target="#work_carousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://lh3.googleusercontent.com/ZlMo5HVpMfu_33SdXZLjcBRGmDiwusJNu8JylvgXVVlXUi6xsyPnndDc1-j7irB5f2ZEZ-Qda46PhJ_g92pYF5y_n4YgR7qCdEsy2_834fw1_oYG1HLwdz_ZFqkdQQhjgbIO9y3-Hnz0f2h240cpI3Hke0I_1glgVfc0aa8LeXzKrBqvsC-uQBG30dTqj5-NfJbyZHF_qUrhQze-ikPiWCGdJYR9_1yyq0MysdAsWbmScAWE3ClZw2C5QbLrec7bhzCmUW8XuSxdafxClcXZxMbfPmFN_EDkQNdGb7l-L4qOsEV1IyLzJZPK8xA50kb8qt6x-wGnFU6YAlPAIdl321mbjpGUXRCoGnXEAidKJwh-1VuY-V90wqsXiotFn51Qsa0HgnltbmLjQRXePkHSywhqnbNQEubgRpNFwpS5nuo8qFq-7UoFQOLNZiyReJw1SBPAqQ-Euyw9LafzU0XYOFF-cJPxyGFqojwXSKT1Kb_OU_FA6euqHo7BifGGumTERJUQstqUpvrI3n-efVBSXCdhwXSCJXYbevBwjIKJiRyuzeWLOD_FgcLtcyKdkHUd0-HynaXcvUtn8RduL-giEoNFE_GrraKnOG_sSjUcJnViwqnLlHZbTSYmJwGTAaH4U72CFZhl9Oro85u0MOTzJwabaQpDDxaBOLM2ChyWahHtlhGE8RdKse6TL6xZ_cG7H4e_-mgjNZRKd5lTQ3pq_aiHG0Y82M8ocdOIN3yewg9uzX2ENkLMU1gAM8qcVM30y2nWs2ZD4qPC6x0jR9DeoOQbbZm4fCjReWLbaK3ov_4vslOFly24C0j2dh5raO3dDnezQdw-WFC24usQ0jJboWTePIspFGngWOU3cphXeMMSUs52g9jC2EdBQRItvmAy9kAzn9FQvp9w0K1RWkv7MwUyHNTLkngygwhXLmpNYZ0dV7Nj=w2151-h1209-no?authuser=0" alt="screenshot of deployed worldwide headlines site">
-                        <div class="carousel-caption d-none d-md-block">
-                            <a href="https://hong-f.github.io/worldwidenews/" target="_blank">
-                            <h5>Worldwide Headlines</h5>
-                            <p>Search for news stories, offering a selection of brief descriptions from across the internet</p>
-                            </a>
-                        </div>  
-                    </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="https://lh3.googleusercontent.com/oGbStmx3h5yNyHMzTxxBbRzlKGqr6hymAFdhXTV8T47uc1qsZxgTYtqsdXlqN9_DmwvzAMhADhzgNDiN1fVQlLrUPJDA1EpuYTttA1hXyPQl06Vd8sGF2ndXKLKmyps8fbc0imnK3k4L8_oQZN9ZjxMZCQRfcM1Yj-v6Ywrpp6hTh4Ju8NlmWwlq-CEwmRux1LDKljz4TlMSG_20-esgom2Mu28Elh7Uo30YCn_5_VtLM6OE4FlTBS-VGKH9y6c6EgcSErXJwSUEM0b-95cHRD-WIPoIIVqpf1RPUnaYQATXBvvTv3zY9ww5DLqjcGzzn4PkA9wFDs-OJhhupWPzHpt2X-DXuOgn5Mo_jbpJh4x1ipkhNk0Vmy6v-jYA73VSrvmOmDRuarxm3x4rhlpN4bcZm7BHhOPvrUP_ML8H3V1-fJsUWhJ90DSqpCDudsDHupLP5uVZ594ziJQmZLGuXw466Bx9IbCE3BOFk2ltLa9wkm7BM0Cs0U9j3q0DcJ4zfhv2DMuCATcaV9dlChwfMzA9cKj0KdkxtEZL05Xls1mdjZs8f5wgpZGThdXCqDnirkArPLHyH7EdSOCaXTzQaoOWKXm72RvwCReA6iQHHY_rRqDJ2F2-01cgbVtOV0zh3uFInCp7Z87pZipCx9EjFRhHp9Mg2LpBpgH1V468GjACUGu3ci5truAAZpmQCb_gNo7-RRK9byET2n8UrFw_emQujdD43TqL1J4vP4h4WIPoyG5m_ei-Vj9Thz5TdZRT_hOUNHeOqVFsfcRhdEJQqk3ZE8IzSCKpqgUdL-tjHxkEKleQ70eR9xNtxhRkHOA9tr-ou-xq1bWnB2Z1Ydbq5Ua8zRh0thszCghVCSrS8da5PV5YmAdqnahj0JdmoC32hs7Dnx3TRAReVuSr6BtdkkcxFSYCeHXcKBCxI5C8E37I3-t_=w2930-h1648-no?authuser=0" alt="screenshot of deployed weather dashboard site">
-                     <a href="https://pat-delaney.github.io/weather_dashboard/" target="_blank">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Weather Dashboard</h5>
-                        <p>Search any city and find current weather, as well as a 5 day forecast</p>
-                        </a> 
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#work_carousel" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#work_carousel" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-            <a class="home_button mx-auto" data-type="home" data-section="navigation">Back home</a>
-            </section>
-        <section class="main_info d-none" id="contact_me">
+
+        <section class="main_info hidden" id="contact_me">
             <h2>Contact Me</h2>
            <div>Phone: (914)787-0861</div>
            <div>Email: pdelaney@outlook.com</div>
-           <a class="home_button" data-type="home" data-section="navigation">Back home</a>
-        </div>    
         </section>
+        <footer></footer>
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
