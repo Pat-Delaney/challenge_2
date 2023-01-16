@@ -1,15 +1,22 @@
-const element_array = $(".main_info")
+const element_array = $(".main_info").toArray()
 let active_element = [];
-
-
-
-$(function() {
+console.log(element_array);
+// element.getBoundingClientRect().top < window.innerHeight - 500 ? navigate(element): ""
+function scrollReveal(){
+    element_array.forEach(element => function(){
+        $("#element").scroll(navigate(element));
+    })}
+$(function(){
     initHome();
-});
+
+})
+$(window).scroll(
+    scrollReveal()
+)
 function navigate(query){
     let section_query = $("#"+query);
-    if(section_query.hasClass("d-none")){
-    section_query[0].classList.toggle("d-none");
+    if(section_query.hasClass("hidden")){
+    section_query[0].classList.toggle("hidden");
     gsap.from(section_query, {
         opacity:0,
         delay:1,
@@ -22,27 +29,7 @@ function navigate(query){
 }
 async function emptyInfo(source){
     console.log(source);
-if(source === "info"){
-    gsap.to($("#about_me"), {
-        opacity:0,
-        delay:0,
-        duration: .75,
-        x:0,
-        y:-100,
-        ease:"power7.in(1.7)",
-        stagger:.5,
-        display:"none"
-    });
-    $(".main_info").each(function(){
-        $(this).addClass("d-none");
-    })
-    
-}
-if(source === "home"){
-    $(".main_info").each(function(){
-        $(this).addClass("d-none");
-    })
-}
+    $("#"+source).addClass("hidden");
 }
 function home(){
 
@@ -75,12 +62,6 @@ function initHome(){
 }
 
 $("#navbar a").click( function(event){
-    event.preventDefault();
-    emptyInfo(event.target.dataset.type);
+
     navigate(event.target.dataset.section);
-});
-$(".home_button").click(function(event){
-    event.preventDefault();
-    emptyInfo(event.target.dataset.type);
-    home();
 })
