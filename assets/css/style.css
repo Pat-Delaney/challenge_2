@@ -131,6 +131,16 @@ footer{
 background: -webkit-linear-gradient(90deg, var(--jet) 0%, rgba(7,7,7,1) 20%, rgba(0,0,0,1) 80%, var(--jet) 100%);
 background: linear-gradient(90deg, var(--jet) 0%, rgba(7,7,7,1) 20%, rgba(0,0,0,1) 80%, var(--jet) 100%);
 }
+.tryitout{
+    text-align: center;
+    text-justify: center;
+}
+.tryitout i{
+    font-size: 40px;
+    position:relative;
+    top: 10px;
+    padding:10px;
+}
 footer a{
     background-color: var(--jet);
 }
