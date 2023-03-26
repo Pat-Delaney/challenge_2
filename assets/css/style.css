@@ -94,14 +94,20 @@ header{
 }
 #about_links{
     font-size: 50px;
-    padding:5px;
+    display: flex;
     align-self: center;
     background-color: var(--jet);
+}
+#resume-link{
+    margin: auto;
+    display: block;
+}
+#work_title{
+    margin-bottom: -1px;
 }
 #about_me a{
     padding:5px;
     align-self: center;
-
     background-color: var(--jet);
 }
 h2{
@@ -112,6 +118,7 @@ h2{
     font-weight: 300;
 	font-size: 2.5em;
 }
+
 #patrick_img{
     object-fit: cover;
     max-width: 300px;
@@ -173,6 +180,7 @@ footer a{
 ul{
     margin: 0;
     padding: 0;
+    margin-bottom: 15px;
 }
 
 p {
@@ -273,3 +281,6 @@ img{
  }
 
 
+ #email_link{
+    background-color: rgba(0, 0, 0, 0);
+}

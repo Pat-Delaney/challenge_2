@@ -24,8 +24,8 @@ function initHome(){
 
     gsap.from($(".card"), {
         opacity:0,
-        delay:1.5,
-        duration:1.5,
+        delay:.1,
+        duration:.4,
         x:0,
         y:-100,
         ease:"power7.Out",
